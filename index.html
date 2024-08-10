@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0%;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f5f5dc;
+            color: #790808;
+            font-family: 'Poppins', sans-serif;
+        }
+        header{
+            position: sticky;
+            top: 0ch;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #deb887;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 21px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #790808;
+        }
+
+        nav ul li a:hover {
+            color: orangered;
+            font-size: 1.14rem;
+
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            width: 30%;
+            margin-top: 70px;
+        }
+
+        .rightsection {
+
+            width: 30%;
+        }
+
+        .rightsection img {
+            width: 200px;
+            height: 400px;
+            margin-top: 60px;
+        }
+
+        main hr {
+            background-color: black;
+            height: 0.15rem;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+            margin: 15px;
+        }
+
+        .secondsection p {
+            font-family: 'Poppins' sans-serif;
+            font-size: 1.4rem;
+            margin: 15px;
+        }
+
+        .thirdsection h1 {
+            font-size: 1.9rem;
+            margin: 15px;
+        }
+
+        .thirdsection p {
+            font-family: 'Poppins' sans-serif;
+            font-size: 1.4rem;
+            margin: 15px;
+        }
+
+        .thirdsection div {
+            margin: 23px;
+
+        }
+
+        .leftside {
+            font-size: 3rem;
+            width: 50%;
+            margin-top: 70px;
+
+
+        }
+
+        .leftside div a {
+            text-decoration: none;
+            color: #790808;
+            font-size: 2rem;
+        }
+
+        .rightside {
+            font-size: 3rem;
+            width: 30%;
+            margin-top: 70px;
+        }
+
+        nav1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            margin-top: 80px;
+        }
+
+        .rightside img {
+            margin-top: 10px;
+            height: 300px;
+        }
+
+        nav2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+        }
+
+        nav3 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+        }
+
+        .thirdsection hr {
+            margin-top: 120px;
+        }
+
+        .fourthsection h1 {
+            font-size: 1.9rem;
+            margin: 15px;
+        }
+
+        nav4 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 250px;
+            margin-left: 0;
+
+        }
+
+        .right4 img {
+            margin-top: 10px;
+            height: 300px;
+        }
+
+        .fourthsection h2 {
+            color: #f5f5dc;
+        }
+
+        .left4 {
+            margin-left: 200px;
+        }
+
+        .centre4 {
+            margin-left: 0px;
+        }
+
+        .fourthsection hr {
+            margin-top: 40px;
+        }
+
+        .fifthsection h1 {
+            font-size: 1.9rem;
+            margin: 15px;
+        }
+
+        .skillsphoto img {
+            margin-left: 200px;
+        }
+
+        nav5 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 250px;
+            margin-left: 0;
+            margin-top: 50px;
+        }
+
+        .sixthsection img {
+            margin-top: 60px;
+        }
+
+        nav6 {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+        }
+
+        .contactme a {
+
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            height: 20px;
+            border: 12px;
+            border-style: outset;
+            border-color: #790808;
+
+        }
+
+        nav7 {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            margin-top: 70px;
+        }
+
+        nav8 {
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            margin-top: 70px;
+        }
+        .copyright p{
+            font-size: 0.8rem;
+            
+        }
+        nav9 {
+            background-color:burlywood;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start ;
+     
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header   >
+        <nav>
+            <div class="left">Ayush's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi!I'm Ayush Bhardwaj.
+                <div>A final year CSE student.</div>
+            </div>
+
+            <div class="rightsection" id="About">
+                <img src="profile picture.png" alt="error">
+            </div>
+        </section>
+        <section class="secondsection" id="Work">
+
+            <h1>About Me</h1>
+            <p>Currently pursuing BTech. in Computer Science and Engineering from JECRC University.Eager to apply
+                knowledge and quick learning ability
+                in a dynamic environment and to contribute in a tech driven role with a cheerful approach.
+            </p>
+            <hr>
+        </section>
+        <section class="thirdsection" >
+            <h1>Work</h1>
+            <p>My Recent Projects:-</p>
+            <nav1>
+                <div class="leftside" id="Education">
+
+
+                    <nav3>
+                        <div>
+                            <a href="https://github.com/AyushBhardwaj611/TrailsAndTales">TrailsAndTales</a>
+                            <a href="/">upcoming project</a>
+
+                    </nav3>
+                </div>
+                <nav3>
+                    <div>
+                        <a href="https://github.com/AyushBhardwaj611/Portfolio_Website">Portfolio Website</a>
+                        <a href="/">upcoming project</a>
+                </nav3>
+                </div>
+                </div>
+
+                <div class="rightside">
+                    <img  src="work.png" alt="error">
+                </div>
+            </nav1>
+            <hr>
+        </section>
+
+        <section class="fourthsection" >
+
+            <h1>Education</h1>
+            <nav4>
+                <div class="left4">
+                    <div> <img src="Education1.png"></div>
+                    <div>
+                        <h2>assc</h2>
+                    </div>
+                    <div>
+                        <p><img src="Education2.png"></p>
+                    </div>
+
+                </div>
+                <div class="centre4">
+                    <div>
+                        <h3>JECRC University</h3>
+                        <p>Pursuing BTech. in Computer Science Engineering (2021-25)</p>
+                    </div>
+                    <div>
+                        <h2>assc</h2>
+                    </div>
+                    <div>
+                        <h3>Maheshwari Public School</h3>
+                        <p>12th with 93% (2020-21)</p>
+                        <p>10th with 94% (2018-19)</p>
+                    </div>
+                </div>
+                <div class="right4">
+                    <img src="Education.png" alt="error">
+                </div>
+            </nav4>
+            <hr>
+        </section>
+
+        <section class="fifthsection" id="Skills">
+
+            <h1>Skills</h1>
+            <div class="skillsphoto">
+                <img src="skills.png" alt error>
+            </div>
+
+            <nav5>
+                <div class="skill1">
+                    <img src="skillsprogramming.png" alt="error">
+                    <h1>Programming Languages</h1>
+                    <p>&nbsp;&nbsp; Java, C++</p>
+                </div>
+
+                <div class="skill2">
+                    <img src="skillsweb.png" alt="error">
+                    <h1>Web Technologies</h1>
+                    <p> &nbsp;&nbsp;&nbsp;HTML,CSS</p>
+                </div>
+                <div class="skill3">
+                    <img src="skillsdbms.png" alt="error">
+                    <h1>Database Management</h1>
+                    <p>&nbsp;&nbsp; MySQL
+                    </p>
+                </div>
+                <div class="skill4">
+                    <img src="skilltools.png" alt="error">
+                    <h1>Tools & Technologies</h1>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;GitHub</p>
+                </div>
+                <div class="skill5">
+                    <img src="skillscourse.png" alt="error">
+                    <h1>Course Related</h1>
+                    <p>&nbsp;&nbsp;&nbsp;OOPs,Operating System
+                    </p>
+                </div>
+            </nav5>
+            <hr>
+        </section>
+        <section class="sixthsection" >
+            <nav6> <img src="email.png" alt="error"></nav6>
+            <nav6>
+                <div id="Contact">
+                    <h1>Interested in Working together?</h1>
+                </div>
+
+            </nav6>
+            <nav6>
+                <div>
+                    <h2>Let`s talk</h2>
+                </div>
+            </nav6>
+            <nav7>
+                <div class="contactme"><a href="mailto:bhardwaj.ayush419@gmail.com">Contact Me</a></div>
+            </nav7>
+            <nav8><div class="copyright"><p>© 2023 Copyright by Ayush Bhardwaj</p></div></nav8>
+           <nav9> <div class="connectid">
+                <a href="https://www.linkedin.com/in/ayush-bhardwaj-62484b307">
+                    <img src="linkedin.png" alt="error">
+                </a>
+
+                <a href="https://github.com/AyushBhardwaj611">
+                    <img src="github.png" alt="error">
+                </a>
+
+                <a href="https://www.instagram.com/_bhardwaj3351_/?igsh=M2l6Z3hqbjgyYWZ4">
+                    <img src="instagram.png" alt="error">
+                </a>
+
+                <a href="mailto:bhardwaj.ayush419@gmail.com">
+                    <img src="mail.png" alt="error">
+                </a> </div>
+            
+            </nav9>
+        </section>
+
+    </main>
+    
+</body>
+
+</html>
